@@ -1,0 +1,810 @@
+[
+    {
+        "id": 1,
+        "category": "Shirts",
+        "image": "/assets/Shirt1.jpg",
+        "name": "PORTO CERVO Textured Shirt",
+        "price": 95,
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "category": "Shirts",
+        "image": "/assets/Shirt2.jpg",
+        "name": "Camisa Masculina",
+        "price": 70,
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "category": "Shirts",
+        "image": "/assets/Shirt3.jpg",
+        "name": "Fitted Foxxey",
+        "price": 150,
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "category": "Shirts",
+        "image": "/assets/Shirt4.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 3
+    },
+    {
+        "id": 5,
+        "category": "Shirts",
+        "image": "/assets/Shirt5.jpg",
+        "name": "Costume Legendary",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 6,
+        "category": "Shirts",
+        "image": "/assets/Shirt6.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 7,
+        "category": "Shirts",
+        "image": "/assets/Shirt7.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 8,
+        "category": "Shirts",
+        "image": "/assets/Shirt8.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 9,
+        "category": "Shirts",
+        "image": "/assets/Shirt9.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 10,
+        "category": "Shirts",
+        "image": "/assets/Shirt10.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 11,
+        "category": "Shirts",
+        "image": "/assets/Shirt11.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 12,
+        "category": "Shirts",
+        "image": "/assets/Shirt12.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 13,
+        "category": "Shirts",
+        "image": "/assets/Shirt13.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 14,
+        "category": "Shirts",
+        "image": "/assets/Shirt14.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 15,
+        "category": "Shirts",
+        "image": "/assets/Shirt15.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 3
+    },
+    {
+        "id": 16,
+        "category": "Shirts",
+        "image": "/assets/Shirt16.jpg",
+        "name": "New Fashion Women Pic",
+        "price": 55,
+        "rating": 4
+    },
+    {
+        "id": 17,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie1.jpg",
+        "name": "Classic Hoodie",
+        "price": 89,
+        "rating": 5
+    },
+    {
+        "id": 18,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie2.jpg",
+        "name": "Premium Pullover Hoodie",
+        "price": 95,
+        "rating": 4
+    },
+    {
+        "id": 19,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie3.jpg",
+        "name": "Oversized Hoodie",
+        "price": 85,
+        "rating": 5
+    },
+    {
+        "id": 20,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie4.jpg",
+        "name": "Luxury Fleece Hoodie",
+        "price": 110,
+        "rating": 5
+    },
+    {
+        "id": 21,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie5.jpg",
+        "name": "Casual Hoodie",
+        "price": 75,
+        "rating": 4
+    },
+    {
+        "id": 22,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie6.jpg",
+        "name": "Streetwear Hoodie",
+        "price": 90,
+        "rating": 4
+    },
+    {
+        "id": 23,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie7.jpg",
+        "name": "Classic Zip Hoodie",
+        "price": 100,
+        "rating": 5
+    },
+    {
+        "id": 24,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie8.jpg",
+        "name": "Urban Hoodie",
+        "price": 88,
+        "rating": 4
+    },
+    {
+        "id": 25,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie9.jpg",
+        "name": "Modern Fit Hoodie",
+        "price": 92,
+        "rating": 5
+    },
+    {
+        "id": 26,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie10.jpg",
+        "name": "Essential Hoodie",
+        "price": 80,
+        "rating": 4
+    },
+    {
+        "id": 27,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie11.jpg",
+        "name": "Heavyweight Hoodie",
+        "price": 115,
+        "rating": 5
+    },
+    {
+        "id": 28,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie12.jpg",
+        "name": "Relaxed Fit Hoodie",
+        "price": 87,
+        "rating": 4
+    },
+    {
+        "id": 29,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie13.jpg",
+        "name": "Premium Cotton Hoodie",
+        "price": 105,
+        "rating": 5
+    },
+    {
+        "id": 30,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie14.jpg",
+        "name": "Minimalist Hoodie",
+        "price": 82,
+        "rating": 4
+    },
+    {
+        "id": 31,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie15.jpg",
+        "name": "Fashion Hoodie",
+        "price": 98,
+        "rating": 5
+    },
+    {
+        "id": 32,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie16.jpg",
+        "name": "Deluxe Hoodie",
+        "price": 120,
+        "rating": 5
+    },
+    {
+        "id": 33,
+        "category": "Jeans",
+        "image": "/assets/Jeans1.jpg",
+        "name": "Classic Denim Jeans",
+        "price": 85,
+        "rating": 5
+    },
+    {
+        "id": 34,
+        "category": "Jeans",
+        "image": "/assets/Jeans2.jpg",
+        "name": "Slim Fit Jeans",
+        "price": 90,
+        "rating": 4
+    },
+    {
+        "id": 35,
+        "category": "Jeans",
+        "image": "/assets/Jeans3.jpg",
+        "name": "Straight Leg Jeans",
+        "price": 88,
+        "rating": 5
+    },
+    {
+        "id": 36,
+        "category": "Jeans",
+        "image": "/assets/Jeans4.jpg",
+        "name": "Ripped Denim Jeans",
+        "price": 95,
+        "rating": 4
+    },
+    {
+        "id": 37,
+        "category": "Jeans",
+        "image": "/assets/Jeans5.jpg",
+        "name": "Premium Blue Jeans",
+        "price": 100,
+        "rating": 5
+    },
+    {
+        "id": 38,
+        "category": "Jeans",
+        "image": "/assets/Jeans6.jpg",
+        "name": "Casual Denim Jeans",
+        "price": 82,
+        "rating": 4
+    },
+    {
+        "id": 39,
+        "category": "Jeans",
+        "image": "/assets/Jeans7.jpg",
+        "name": "Modern Fit Jeans",
+        "price": 92,
+        "rating": 5
+    },
+    {
+        "id": 40,
+        "category": "Jeans",
+        "image": "/assets/Jeans8.jpg",
+        "name": "Dark Wash Jeans",
+        "price": 89,
+        "rating": 4
+    },
+    {
+        "id": 41,
+        "category": "Jeans",
+        "image": "/assets/Jeans9.jpg",
+        "name": "Urban Denim Jeans",
+        "price": 96,
+        "rating": 5
+    },
+    {
+        "id": 42,
+        "category": "Jeans",
+        "image": "/assets/Jeans10.jpg",
+        "name": "Relaxed Fit Jeans",
+        "price": 86,
+        "rating": 4
+    },
+    {
+        "id": 43,
+        "category": "Jeans",
+        "image": "/assets/Jeans11.jpg",
+        "name": "Vintage Denim Jeans",
+        "price": 94,
+        "rating": 5
+    },
+    {
+        "id": 44,
+        "category": "Jeans",
+        "image": "/assets/Jeans12.jpg",
+        "name": "Fashion Denim Jeans",
+        "price": 91,
+        "rating": 4
+    },
+    {
+        "id": 45,
+        "category": "Jeans",
+        "image": "/assets/Jeans13.jpg",
+        "name": "Luxury Denim Jeans",
+        "price": 110,
+        "rating": 5
+    },
+    {
+        "id": 46,
+        "category": "Jeans",
+        "image": "/assets/Jeans14.jpg",
+        "name": "Classic Black Jeans",
+        "price": 87,
+        "rating": 4
+    },
+    {
+        "id": 47,
+        "category": "Jeans",
+        "image": "/assets/Jeans15.jpg",
+        "name": "Premium Black Denim",
+        "price": 99,
+        "rating": 5
+    },
+    {
+        "id": 48,
+        "category": "Jeans",
+        "image": "/assets/Jeans16.jpg",
+        "name": "Deluxe Denim Jeans",
+        "price": 115,
+        "rating": 5
+    },
+    {
+        "id": 49,
+        "category": "Shoes",
+        "image": "/assets/Shoes1.jpg",
+        "name": "Classic Sneakers",
+        "price": 120,
+        "rating": 5
+    },
+    {
+        "id": 50,
+        "category": "Shoes",
+        "image": "/assets/Shoes2.jpg",
+        "name": "Premium Sneakers",
+        "price": 135,
+        "rating": 4
+    },
+    {
+        "id": 51,
+        "category": "Shoes",
+        "image": "/assets/Shoes3.jpg",
+        "name": "Luxury Casual Shoes",
+        "price": 145,
+        "rating": 5
+    },
+    {
+        "id": 52,
+        "category": "Shoes",
+        "image": "/assets/Shoes4.jpg",
+        "name": "Urban Sneakers",
+        "price": 110,
+        "rating": 4
+    },
+    {
+        "id": 53,
+        "category": "Shoes",
+        "image": "/assets/Shoes5.jpg",
+        "name": "Classic Trainers",
+        "price": 125,
+        "rating": 5
+    },
+    {
+        "id": 54,
+        "category": "Shoes",
+        "image": "/assets/Shoes6.jpg",
+        "name": "Fashion Sneakers",
+        "price": 130,
+        "rating": 4
+    },
+    {
+        "id": 55,
+        "category": "Shoes",
+        "image": "/assets/Shoes7.jpg",
+        "name": "Premium Trainers",
+        "price": 140,
+        "rating": 5
+    },
+    {
+        "id": 56,
+        "category": "Shoes",
+        "image": "/assets/Shoes8.jpg",
+        "name": "Casual Sneakers",
+        "price": 115,
+        "rating": 4
+    },
+    {
+        "id": 57,
+        "category": "Shoes",
+        "image": "/assets/Shoes9.jpg",
+        "name": "Deluxe Sneakers",
+        "price": 150,
+        "rating": 5
+    },
+    {
+        "id": 58,
+        "category": "Shoes",
+        "image": "/assets/Shoes10.jpg",
+        "name": "Sport Sneakers",
+        "price": 128,
+        "rating": 4
+    },
+    {
+        "id": 59,
+        "category": "Shoes",
+        "image": "/assets/Shoes11.jpg",
+        "name": "Modern Trainers",
+        "price": 138,
+        "rating": 5
+    },
+    {
+        "id": 60,
+        "category": "Shoes",
+        "image": "/assets/Shoes12.jpg",
+        "name": "Street Sneakers",
+        "price": 118,
+        "rating": 4
+    },
+    {
+        "id": 61,
+        "category": "Shoes",
+        "image": "/assets/Shoes13.jpg",
+        "name": "Luxury Trainers",
+        "price": 155,
+        "rating": 5
+    },
+    {
+        "id": 62,
+        "category": "Shoes",
+        "image": "/assets/Shoes14.jpg",
+        "name": "Classic Leather Shoes",
+        "price": 160,
+        "rating": 4
+    },
+    {
+        "id": 63,
+        "category": "Shoes",
+        "image": "/assets/Shoes15.jpg",
+        "name": "Premium Leather Sneakers",
+        "price": 145,
+        "rating": 5
+    },
+    {
+        "id": 64,
+        "category": "Shoes",
+        "image": "/assets/Shoes16.jpg",
+        "name": "Deluxe Shoes",
+        "price": 170,
+        "rating": 5
+    },
+    {
+        "id": 65,
+        "category": "Bags",
+        "image": "/assets/Bags1.jpg",
+        "name": "Classic Leather Bag",
+        "price": 99,
+        "rating": 5
+    },
+    {
+        "id": 66,
+        "category": "Bags",
+        "image": "/assets/Bags2.jpg",
+        "name": "Premium Handbag",
+        "price": 120,
+        "rating": 4
+    },
+    {
+        "id": 67,
+        "category": "Bags",
+        "image": "/assets/Bags3.jpg",
+        "name": "Luxury Shoulder Bag",
+        "price": 135,
+        "rating": 5
+    },
+    {
+        "id": 68,
+        "category": "Bags",
+        "image": "/assets/Bags4.jpg",
+        "name": "Fashion Handbag",
+        "price": 110,
+        "rating": 4
+    },
+    {
+        "id": 69,
+        "category": "Bags",
+        "image": "/assets/Bags5.jpg",
+        "name": "Classic Shoulder Bag",
+        "price": 105,
+        "rating": 5
+    },
+    {
+        "id": 70,
+        "category": "Bags",
+        "image": "/assets/Bags6.jpg",
+        "name": "Elegant Leather Bag",
+        "price": 125,
+        "rating": 4
+    },
+    {
+        "id": 71,
+        "category": "Bags",
+        "image": "/assets/Bags7.jpg",
+        "name": "Deluxe Handbag",
+        "price": 145,
+        "rating": 5
+    },
+    {
+        "id": 72,
+        "category": "Bags",
+        "image": "/assets/Bags8.jpg",
+        "name": "Modern Fashion Bag",
+        "price": 115,
+        "rating": 4
+    },
+    {
+        "id": 73,
+        "category": "Bags",
+        "image": "/assets/Bags9.jpg",
+        "name": "Premium Crossbody Bag",
+        "price": 130,
+        "rating": 5
+    },
+    {
+        "id": 74,
+        "category": "Bags",
+        "image": "/assets/Bags10.jpg",
+        "name": "Luxury Fashion Bag",
+        "price": 150,
+        "rating": 4
+    },
+    {
+        "id": 75,
+        "category": "Bags",
+        "image": "/assets/Bags11.jpg",
+        "name": "Classic Designer Bag",
+        "price": 140,
+        "rating": 5
+    },
+    {
+        "id": 76,
+        "category": "Bags",
+        "image": "/assets/Bags12.jpg",
+        "name": "Casual Shoulder Bag",
+        "price": 100,
+        "rating": 4
+    },
+    {
+        "id": 77,
+        "category": "Bags",
+        "image": "/assets/Bags13.jpg",
+        "name": "Premium Designer Bag",
+        "price": 155,
+        "rating": 5
+    },
+    {
+        "id": 78,
+        "category": "Bags",
+        "image": "/assets/Bags14.jpg",
+        "name": "Elegant Handbag",
+        "price": 125,
+        "rating": 4
+    },
+    {
+        "id": 79,
+        "category": "Bags",
+        "image": "/assets/Bags15.jpg",
+        "name": "Luxury Leather Bag",
+        "price": 160,
+        "rating": 5
+    },
+    {
+        "id": 80,
+        "category": "Bags",
+        "image": "/assets/Bags16.jpg",
+        "name": "Deluxe Leather Bag",
+        "price": 175,
+        "rating": 5
+    },
+    {
+        "id": 81,
+        "category": "Jackets",
+        "image": "/assets/Jackets1.jpg",
+        "name": "Classic Fashion Jacket",
+        "price": 120,
+        "rating": 5
+    },
+    {
+        "id": 82,
+        "category": "Jackets",
+        "image": "/assets/Jackets2.jpg",
+        "name": "Premium Leather Jacket",
+        "price": 150,
+        "rating": 4
+    },
+    {
+        "id": 83,
+        "category": "Jackets",
+        "image": "/assets/Jackets3.jpg",
+        "name": "Luxury Casual Jacket",
+        "price": 135,
+        "rating": 5
+    },
+    {
+        "id": 84,
+        "category": "Jackets",
+        "image": "/assets/Jackets4.jpg",
+        "name": "Modern Denim Jacket",
+        "price": 110,
+        "rating": 4
+    },
+    {
+        "id": 85,
+        "category": "Jackets",
+        "image": "/assets/Jackets5.jpg",
+        "name": "Classic Bomber Jacket",
+        "price": 125,
+        "rating": 5
+    },
+    {
+        "id": 86,
+        "category": "Jackets",
+        "image": "/assets/Jackets6.jpg",
+        "name": "Premium Bomber Jacket",
+        "price": 145,
+        "rating": 4
+    },
+    {
+        "id": 87,
+        "category": "Jackets",
+        "image": "/assets/Jackets7.jpg",
+        "name": "Urban Fashion Jacket",
+        "price": 130,
+        "rating": 5
+    },
+    {
+        "id": 88,
+        "category": "Jackets",
+        "image": "/assets/Jackets8.jpg",
+        "name": "Casual Denim Jacket",
+        "price": 105,
+        "rating": 4
+    },
+    {
+        "id": 89,
+        "category": "Jackets",
+        "image": "/assets/Jackets9.jpg",
+        "name": "Luxury Winter Jacket",
+        "price": 160,
+        "rating": 5
+    },
+    {
+        "id": 90,
+        "category": "Jackets",
+        "image": "/assets/Jackets10.jpg",
+        "name": "Modern Leather Jacket",
+        "price": 175,
+        "rating": 4
+    },
+    {
+        "id": 91,
+        "category": "Jackets",
+        "image": "/assets/Jackets11.jpg",
+        "name": "Premium Casual Jacket",
+        "price": 140,
+        "rating": 5
+    },
+    {
+        "id": 92,
+        "category": "Jackets",
+        "image": "/assets/Jackets12.jpg",
+        "name": "Classic Zip Jacket",
+        "price": 115,
+        "rating": 4
+    },
+    {
+        "id": 93,
+        "category": "Jackets",
+        "image": "/assets/Jackets13.jpg",
+        "name": "Deluxe Leather Jacket",
+        "price": 180,
+        "rating": 5
+    },
+    {
+        "id": 94,
+        "category": "Jackets",
+        "image": "/assets/Jackets14.jpg",
+        "name": "Fashion Winter Jacket",
+        "price": 155,
+        "rating": 4
+    },
+    {
+        "id": 95,
+        "category": "Jackets",
+        "image": "/assets/Jackets15.jpg",
+        "name": "Premium Designer Jacket",
+        "price": 165,
+        "rating": 5
+    },
+    {
+        "id": 96,
+        "category": "Jackets",
+        "image": "/assets/Jackets16.jpg",
+        "name": "Deluxe Fashion Jacket",
+        "price": 190,
+        "rating": 5
+    },
+    {
+        "id": 97,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie1.jpg",
+        "name": "Classic Hoodie",
+        "price": 89,
+        "rating": 7
+    },
+    {
+        "id": 98,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie2.jpg",
+        "name": "Premium Pullover Hoodie",
+        "price": 95,
+        "rating": 6
+    },
+    {
+        "id": 99,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie3.jpg",
+        "name": "Oversized Hoodie",
+        "price": 85,
+        "rating": 5
+    },
+    {
+        "id": 100,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie4.jpg",
+        "name": "Luxury Fleece Hoodie",
+        "price": 110,
+        "rating": 10
+    },
+    {
+        "id": 101,
+        "category": "Hoodies",
+        "image": "/assets/Hoodie5.jpg",
+        "name": "Casual Hoodie",
+        "price": 75,
+        "rating": 2
+    }
+]

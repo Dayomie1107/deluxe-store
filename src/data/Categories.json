@@ -1,0 +1,32 @@
+[
+   {
+      "id": 1,
+      "name": "Shirts",
+      "image": "/assets/Shirts.jpg"
+   },
+   {
+      "id": 2,
+      "name": "Hoodies",
+      "image": "/assets/Hoodies.jpg"
+   },
+   {
+      "id": 3,
+      "name": "Jeans",
+      "image": "/assets/Jeans.jpg"
+   },
+   {
+      "id": 4,
+      "name": "Shoes",
+      "image": "/assets/Shoes.jpg"
+   },
+   {
+      "id": 5,
+      "name": "Bags",
+      "image": "/assets/Bags.jpg"
+   },
+   {
+      "id": 6,
+      "name": "Jackets",
+      "image": "/assets/Jackets.jpg"
+   }
+]
