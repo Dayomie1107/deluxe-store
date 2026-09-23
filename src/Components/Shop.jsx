@@ -3,7 +3,7 @@ import { useSearchParams } from 'react-router-dom'
 import products from '../data/products.json'
 import { FaStar, FaShoppingCart } from 'react-icons/fa'
 
-function Shop({ addToCart }) {
+function Shop({ addToCart, cart }) {
 
     const [searchParams] = useSearchParams()
 
@@ -32,56 +32,69 @@ function Shop({ addToCart }) {
 
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-16'>
 
-                    {filteredProduct.map((product) => (
+                    {filteredProduct.map((product) => {
 
-                        <div
-                            key={product.id}
-                            className='bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 duration-300'
-                        >
+                        const isAdded = cart?.some(
+                            (item) => item.id === product.id
+                        )
 
-                            <img
-                                src={product.image}
-                                alt={product.name}
-                                className='w-full h-60 sm:h-64 object-cover'
-                            />
+                        return (
 
-                            <div className='p-5'>
+                            <div
+                                key={product.id}
+                                className='bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl hover:-translate-y-2 duration-300'
+                            >
 
-                                <h2 className='text-base sm:text-lg font-semibold'>
-                                    {product.name}
-                                </h2>
+                                <img
+                                    src={product.image}
+                                    alt={product.name}
+                                    className='w-full h-60 sm:h-64 object-cover'
+                                />
 
-                                <div className='flex text-yellow-400 mt-2'>
+                                <div className='p-5'>
 
-                                    {Array(product.rating)
-                                        .fill()
-                                        .map((_, index) => (
-                                            <FaStar key={index} />
-                                        ))}
+                                    <h2 className='text-base sm:text-lg font-semibold'>
+                                        {product.name}
+                                    </h2>
 
-                                </div>
+                                    <div className='flex text-yellow-400 mt-2'>
 
-                                <div className='flex items-center justify-between mt-3'>
+                                        {Array(product.rating)
+                                            .fill()
+                                            .map((_, index) => (
+                                                <FaStar key={index} />
+                                            ))}
 
-                                    <p className='text-base sm:text-lg font-bold text-[#7E5A9B]'>
-                                        ${product.price}
-                                    </p>
+                                    </div>
 
-                                    <button
-                                        onClick={() => addToCart(product)}
-                                        className='bg-[#7E5A9B] text-white px-3 sm:px-4 py-2 rounded-lg hover:bg-[#6A4687] transition flex items-center gap-2 text-sm sm:text-base cursor-pointer'
-                                    >
-                                        <FaShoppingCart />
-                                        Add
-                                    </button>
+                                    <div className='flex items-center justify-between mt-3'>
+
+                                        <p className='text-base sm:text-lg font-bold text-[#7E5A9B]'>
+                                            ${product.price}
+                                        </p>
+
+                                        <button
+                                            onClick={() => addToCart(product)}
+                                            className={`text-white px-3 sm:px-4 py-2 rounded-lg transition flex items-center gap-2 text-sm sm:text-base cursor-pointer ${isAdded
+                                                    ? 'bg-green-600'
+                                                    : 'bg-[#7E5A9B] hover:bg-[#6A4687]'
+                                                }`}
+                                        >
+
+                                            <FaShoppingCart />
+
+                                            {isAdded ? '✓ Added' : 'Add'}
+
+                                        </button>
+
+                                    </div>
 
                                 </div>
 
                             </div>
 
-                        </div>
-
-                    ))}
+                        )
+                    })}
 
                 </div>
 

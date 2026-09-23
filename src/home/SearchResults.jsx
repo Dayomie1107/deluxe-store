@@ -3,17 +3,20 @@ import { useSearchParams } from 'react-router-dom'
 import products from '../data/products.json'
 import { FaShoppingCart } from 'react-icons/fa'
 
-function SearchResults({ addToCart }) {
+function SearchResults({ addToCart, cart }) {
 
     const [searchParams] = useSearchParams()
-    const query = searchParams.get('query')
+    const query = searchParams.get('query') || ''
 
     const filteredProduct = products.filter(product => {
-        const searhValue = query.toLowerCase()
-        return product.name.toLowerCase().includes(searhValue) || product.category.toLowerCase().includes(searhValue) || product.price.toString().includes(searhValue)
+        const searchValue = query.toLowerCase()
+
+        return (
+            product.name.toLowerCase().includes(searchValue) ||
+            product.category.toLowerCase().includes(searchValue) ||
+            product.price.toString().includes(searchValue)
+        )
     })
-    console.log(query);
-    console.log(filteredProduct);
 
     return (
         <section className='min-h-screen py-20 bg-[#F8F5FC]'>
@@ -42,6 +45,10 @@ function SearchResults({ addToCart }) {
 
                         {filteredProduct.map((product) => {
 
+                            const isAdded = cart?.some(
+                                (item) => item.id === product.id
+                            )
+
                             return (
                                 <div
                                     key={product.id}
@@ -64,7 +71,14 @@ function SearchResults({ addToCart }) {
 
                                     <p>
                                         {product.rating < 3
-                                            ? "⭐" : product.rating < 5 ? "⭐⭐" : product.rating < 7 ? "⭐⭐⭐" : product.rating < 9 ? "⭐⭐⭐⭐" : "⭐⭐⭐⭐⭐"
+                                            ? "⭐"
+                                            : product.rating < 5
+                                                ? "⭐⭐"
+                                                : product.rating < 7
+                                                    ? "⭐⭐⭐"
+                                                    : product.rating < 9
+                                                        ? "⭐⭐⭐⭐"
+                                                        : "⭐⭐⭐⭐⭐"
                                         }
                                     </p>
 
@@ -76,10 +90,14 @@ function SearchResults({ addToCart }) {
 
                                         <button
                                             onClick={() => addToCart(product)}
-                                            className='flex items-center gap-2 bg-[#8259A3] text-white px-4 py-2 rounded-lg hover:bg-[#70498f] transition cursor-pointer'
+                                            className={`flex items-center gap-2 text-white px-4 py-2 rounded-lg transition cursor-pointer ${isAdded
+                                                    ? 'bg-green-600'
+                                                    : 'bg-[#8259A3] hover:bg-[#70498f]'
+                                                }`}
                                         >
                                             <FaShoppingCart />
-                                            Add
+
+                                            {isAdded ? '✓ Added' : 'Add'}
                                         </button>
 
                                     </div>
@@ -93,12 +111,9 @@ function SearchResults({ addToCart }) {
                 )}
 
             </div>
-        </section >
 
-
-
+        </section>
     )
-
 }
 
 export default SearchResults
