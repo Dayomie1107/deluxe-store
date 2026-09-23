@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../home/Navbar'
 import Hero from '../home/Hero'
-import Categories from '../home/Categories'
+import categories from '../home/categories'
 import WhyChooseUs from '../home/WhyChooseUs'
 import FeaturedCollection from '../home/FeaturedCollection'
 import Newsletter from './Newsletter'
@@ -11,7 +11,7 @@ function Home({ addToCart }) {
   return (
     <div>
       <Hero />
-      <Categories />
+      <categories />
       <WhyChooseUs />
       <FeaturedCollection addToCart={addToCart} />
       <Newsletter />
