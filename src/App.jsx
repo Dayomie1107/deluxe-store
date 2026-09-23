@@ -6,8 +6,7 @@ import Contact from './home/Contact'
 import Login from './Auth/Login'
 import AuthLayout from './Auth/AuthLayout'
 import Signup from './Auth/Signup'
-import Cart from './Components/shop/Cart'
-import './App.css'
+import Cart from './Components/Shop/Cart'
 import MainLayout from './Components/MainLayout'
 import Shop from './Components/Shop'
 import SearchResults from './home/SearchResults'
@@ -16,6 +15,7 @@ import Checkout from './Components/Shop/Checkout'
 import Payment from './Components/Shop/Payment'
 import OrderHistory from './Components/Shop/OrderHistory'
 import Receipt from './Components/Shop/Receipt'
+
 
 function App() {
   const [cart, setCart] = useState(() => {

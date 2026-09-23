@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaTrash, FaMinus, FaPlus } from 'react-icons/fa'
 
-function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
+export default function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
 
   const subtotal = cart.reduce((acc, item) => {
     return acc + (item.price * item.quantity)
@@ -31,7 +31,7 @@ function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
             </p>
 
             <div className='flex flex-col gap-3 mt-6'>
-              {/* Primary action: View Order History */}
+
               <Link
                 to='/orders'
                 className='block w-full bg-[#7E5A9B] text-white py-3 rounded-xl font-semibold hover:bg-[#6A4687] transition shadow-sm'
@@ -39,7 +39,7 @@ function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
                 View Order History
               </Link>
 
-              {/* Secondary action: Go to Shop */}
+
               <Link
                 to='/shop'
                 className='block w-full border border-[#7E5A9B] text-[#7E5A9B] py-3 rounded-xl font-semibold hover:bg-[#F0EAF5] transition'
@@ -354,4 +354,3 @@ function Cart({ cart, increaseQuantity, decreaseQuantity, removeFromCart }) {
   )
 }
 
-export default Cart
