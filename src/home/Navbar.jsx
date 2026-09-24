@@ -21,18 +21,21 @@ function Navbar({ cart }) {
   }
 
   return (
-    <nav className='bg-white shadow-md'>
+    <nav className='sticky top-0 z-50 bg-white shadow-md'>
       <div className='max-w-7xl mx-auto px-3 sm:px-5 md:px-8 lg:px-10 py-5 flex items-center justify-between'>
+
 
         <h1 className='text-xl sm:text-2xl md:text-3xl font-bold tracking-wide'>
           Deluxe <span className='text-[#7E5A9B]'>Store</span>
         </h1>
+
 
         <ul className='hidden md:flex items-center md:gap-6 lg:gap-10 text-gray-700 font-semibold text-sm uppercase'>
           <li><Link to='/' className='cursor-pointer hover:text-[#7E5A9B] transition'>Home</Link></li>
           <li><Link to='/about' className='cursor-pointer hover:text-[#7E5A9B] transition'>About</Link></li>
           <li><Link to='/contact' className='cursor-pointer hover:text-[#7E5A9B] transition'>Contact</Link></li>
         </ul>
+
 
         <div className='hidden md:flex sm:gap-2 md:gap-4 lg:gap-6 items-center'>
           {isLoggedIn ? (
@@ -60,15 +63,31 @@ function Navbar({ cart }) {
           </Link>
         </div>
 
-        <button
-          className='md:hidden text-3xl'
-          onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <HiX /> : <HiMenuAlt3 />}
-        </button>
+
+        <div className='flex md:hidden items-center gap-4'>
+          <Link to="/cart" className='relative mr-1'>
+            <FaShoppingBag
+              size={18}
+              className="cursor-pointer text-black hover:text-[#7E5A9B]"
+            />
+            <span className="absolute -top-2 -right-3 bg-red-500 text-white text-[10px] w-5 h-5 rounded-full flex items-center justify-center font-bold">
+              {cart ? cart.length : 0}
+            </span>
+          </Link>
+
+          <button
+            className='text-3xl text-gray-700'
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            {menuOpen ? <HiX /> : <HiMenuAlt3 />}
+          </button>
+        </div>
+
       </div>
 
+
       {menuOpen && (
-        <div className='md:hidden bg-white shadow-lg'>
+        <div className='md:hidden bg-white shadow-lg border-t border-gray-100'>
           <div className='flex flex-col gap-5 px-5 py-6'>
             <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
             <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
@@ -93,15 +112,6 @@ function Navbar({ cart }) {
                 </Link>
               </>
             )}
-
-            <Link
-              to="/cart"
-              onClick={() => setMenuOpen(false)}
-              className="flex items-center gap-3"
-            >
-              <FaShoppingBag />
-              <span className='text-gray-700'>Cart ({cart ? cart.length : 0})</span>
-            </Link>
           </div>
         </div>
       )}

@@ -209,10 +209,10 @@ function Receipt() {
                     </div>
                 )}
 
-                {/* RECEIPT */}
+                
                 <div className="receipt-printable-area bg-white rounded-2xl shadow-sm border border-gray-100 p-4 sm:p-8 overflow-hidden">
 
-                    {/* HEADER */}
+                    
                     <div className="flex justify-between items-start border-b border-gray-200 pb-5 sm:pb-6 gap-4">
 
                         <div>
@@ -240,7 +240,7 @@ function Receipt() {
                         </div>
                     </div>
 
-                    {/* CUSTOMER DETAILS */}
+                    
                     <div className="py-5 sm:py-6 border-b border-gray-200">
 
                         <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">
@@ -357,7 +357,7 @@ function Receipt() {
 
                         </div>
 
-                        {/* DESKTOP TABLE */}
+                    
                         <div className="hidden sm:block overflow-x-auto">
 
                             <table className="w-full text-left border-collapse">
