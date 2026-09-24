@@ -75,8 +75,8 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/cart' element={<Cart cart={cart} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} removeFromCart={removeFromCart} />} />
-        <Route path='/shop' element={<Shop addToCart={addToCart} />} />
-        <Route path='/search' element={<SearchResults addToCart={addToCart} />} />
+        <Route path='/shop' element={<Shop addToCart={addToCart} cart={cart} />} />
+        <Route path='/search' element={<SearchResults addToCart={addToCart} cart={cart}/>} />
         <Route path='/checkout' element={<Checkout cart={cart} />} />
         <Route path='/payment' element={<Payment clearCart={clearCart} />} />
         <Route path='/orders' element={<OrderHistory />} />

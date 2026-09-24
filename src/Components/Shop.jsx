@@ -76,8 +76,8 @@ function Shop({ addToCart, cart }) {
                                         <button
                                             onClick={() => addToCart(product)}
                                             className={`text-white px-3 sm:px-4 py-2 rounded-lg transition flex items-center gap-2 text-sm sm:text-base cursor-pointer ${isAdded
-                                                    ? 'bg-green-600'
-                                                    : 'bg-[#7E5A9B] hover:bg-[#6A4687]'
+                                                ? 'bg-green-600'
+                                                : 'bg-[#7E5A9B] hover:bg-[#6A4687]'
                                                 }`}
                                         >
 
