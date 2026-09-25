@@ -6,16 +6,19 @@ import WhyChooseUs from '../home/WhyChooseUs'
 import FeaturedCollection from '../home/FeaturedCollection'
 import Newsletter from './Newsletter'
 import Footer from '../home/Footer'
+import PageTransition from './PageTransition'
 
 function Home({ addToCart }) {
   return (
     <div>
-      <Hero />
-      <Categories />
-      <WhyChooseUs />
-      <FeaturedCollection addToCart={addToCart} />
-      <Newsletter />
-      <Footer />
+      <PageTransition>
+        <Hero />
+        <Categories />
+        <WhyChooseUs />
+        <FeaturedCollection addToCart={addToCart} />
+        <Newsletter />
+        <Footer />
+      </PageTransition>
 
     </div>
   )
